@@ -73,7 +73,7 @@ class SnowFlake
   }
   void wrap()
   {
-    if (myY > 259) {
+    if (myY > 295) {
       myY = 0;
       myX = (int)(Math.random()*300);
     }
