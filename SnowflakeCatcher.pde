@@ -53,7 +53,7 @@ class SnowFlake
   }
   void lookDown()
   {
-    if (myY > 0 && myY < 300 && get(myX,myY+5) != color(0)) {
+    if ( get(myX,myY+5) != color(0)) {
       isMoving = false;
     } else {
       isMoving = true;
